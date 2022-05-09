@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 137147277}
   - component: {fileID: 137147278}
   - component: {fileID: 137147279}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bottom Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -354,9 +354,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fec791bd9e4284fc389f1e77d8c138b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 0.1
+  movementSpeed: 5
   up: up
   down: down
+  wallMask:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &424318453
 GameObject:
   m_ObjectHideFlags: 0
@@ -366,7 +369,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 424318454}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -511,9 +514,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fec791bd9e4284fc389f1e77d8c138b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 0.1
+  movementSpeed: 5
   up: w
   down: s
+  wallMask:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -608,7 +614,7 @@ GameObject:
   - component: {fileID: 1396238111}
   - component: {fileID: 1396238112}
   - component: {fileID: 1396238113}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Top wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
